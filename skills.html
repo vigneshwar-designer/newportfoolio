@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skills Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Rozha+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="skills.css">
+  <style id="sections-styles">
+/* CSS for section section:skills */
+.skills-page {
+  padding: 20px;
+}
+
+.skills-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #000000;
+  border: 10px solid #c60184;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 2;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 984px; /* 1024px - 2*10px border - 2*10px padding */
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 70px;
+}
+
+.page-title {
+  font-family: 'Rozha One', serif;
+  font-size: 96px;
+  font-weight: 400;
+  color: #c60184;
+  margin: 0;
+  line-height: 1;
+}
+
+.title-lines {
+  margin-top: 22px;
+}
+
+.line {
+  height: 10px;
+  background-color: #d9d9d9;
+}
+
+.line-1 {
+  width: 320px;
+  margin-bottom: 12.5px;
+}
+
+.line-2 {
+  width: 194px;
+}
+
+.main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.nav-item a {
+  display: flex;
+  align-items: center;
+  padding: 4px 18px 4px 8px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 36px;
+  font-weight: 400;
+  background-color: #d9d9d9;
+  transition: transform 0.2s ease;
+}
+
+.nav-item a:hover {
+  transform: scale(1.05);
+}
+
+.nav-item.active a {
+  background-color: #c60184;
+}
+
+.nav-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.skill-category {
+  width: 100%;
+  text-align: center;
+}
+
+.category-title {
+  font-family: 'Rozha One', serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 0 30px 0;
+}
+
+.icon-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+.skill-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.skill-icon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+  }
+  .main-nav ul {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 25px;
+  }
+  .page-title {
+    font-size: 64px;
+  }
+  .title-lines {
+    margin: 20px auto 0;
+  }
+  .nav-item a {
+    font-size: 24px;
+    padding: 6px 12px 6px 6px;
+  }
+  .nav-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+  }
+  .category-title {
+    font-size: 36px;
+  }
+  .skill-icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-item {
+    width: 100%;
+    max-width: 280px;
+  }
+  .nav-item a {
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .page-title {
+    font-size: 48px;
+  }
+  .category-title {
+    font-size: 28px;
+  }
+  .skill-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .icon-grid {
+    gap: 20px;
+  }
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="skills" class="skills-page">
+    <div class="skills-container">
+        <img src="images/6dfc4a072cd53ce907ebe527a7c6048304966165.png" alt="Starry background" class="background-stars">
+        
+        <div class="content-wrapper">
+            <header class="page-header">
+                <div class="page-title-group">
+                    <h1 class="page-title">SKILLS...</h1>
+                    <div class="title-lines">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                    </div>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="index.html">
+                                <img src="images/5da954b10cb78b646d2cec31c14a19a9e8f533b0.png" alt="Home icon" class="nav-icon">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html">
+                                <img src="images/c3d6f02793aa6f9388bd1a95d645d2fb6c8633ca.png" alt="About icon" class="nav-icon">
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="skills.html">
+                                <img src="images/346de00672f96e0840309d617d5e80f5070df0bb.png" alt="Skills icon" class="nav-icon">
+                                <span>Skills</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="projects.html">
+                                <img src="images/eaddbd285535d379a872966b709327718c716115.png" alt="Projects icon" class="nav-icon">
+                                <span>Projects</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contacts.html">
+                                <img src="images/04a82226db3c5012ac7b808031f1586434800d83.png" alt="Contact icon" class="nav-icon">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="skills-content">
+                <div class="skill-category">
+                    <h2 class="category-title">Languages</h2>
+                    <div class="icon-grid">
+                        <img src="images/8_103.svg" alt="HTML5 icon" class="skill-icon">
+                        <img src="images/8_109.svg" alt="CSS3 icon" class="skill-icon">
+                        <img src="images/8_111.svg" alt="JavaScript icon" class="skill-icon">
+                        <img src="images/95a228b31926fe6a5bf4c1cc9554c35973bbd2c6.png" alt="C++ icon" class="skill-icon">
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h2 class="category-title">Designing Tools</h2>
+                    <div class="icon-grid">
+                        <img src="images/02026757c13b68efe0aa7fb2f9329e6155c28513.png" alt="Photoshop icon" class="skill-icon">
+                        <img src="images/d03e08d37318b7e333a39721fcf46dc8cdb27d80.png" alt="Illustrator icon" class="skill-icon">
+                        <img src="images/17c637b9b6e272669ec1bb516e2a5c90849b58ed.png" alt="Figma icon" class="skill-icon">
+                        <img src="images/ee115ee4d6683580dc07fa0c7a97460abf486767.png" alt="Blender icon" class="skill-icon">
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h2 class="category-title">Productivity Tools</h2>
+                    <div class="icon-grid">
+                        <img src="images/7ab3550a9cb74833112713a0177f32739c72a092.png" alt="Excel icon" class="skill-icon">
+                        <img src="images/2bdc5258b50cfa7638ef8caa472218ee96339be3.png" alt="Word icon" class="skill-icon">
+                        <img src="images/041bed38a3feb01c02ede59a97a808d63b4fd1b6.png" alt="PowerPoint icon" class="skill-icon">
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</section>
+</body>
+</html>

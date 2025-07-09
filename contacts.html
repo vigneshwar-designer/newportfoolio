@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Inter:wght@400&family=Rozha+One&display=swap" rel="stylesheet">
+<title>Contact Page</title>
+  <link rel="stylesheet" href="contacts.css">
+  <style id="sections-styles">
+/* CSS for section section:contact */
+.contact-container {
+    max-width: 1440px;
+    min-height: 1024px;
+    margin: 20px auto;
+    background: #000000 url('images/6dfc4a072cd53ce907ebe527a7c6048304966165.png') center/cover no-repeat;
+    border: 10px solid #002de0;
+    padding: 13px 47px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .contact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .title-block {
+    padding-top: 13px;
+  }
+
+  .main-title {
+    font-family: 'Rozha One', serif;
+    font-size: 96px;
+    font-weight: 400;
+    color: #002de0;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .decorative-lines {
+    margin-top: 29px;
+  }
+
+  .decorative-lines .line-1 {
+    width: 320px;
+    height: 10px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+  }
+
+  .decorative-lines .line-2 {
+    width: 194px;
+    height: 10px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    margin-top: 12.5px;
+  }
+
+  .main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    padding-top: 30px;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 15px;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .nav-link:hover {
+    opacity: 0.8;
+  }
+
+  .nav-link img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .nav-link.active {
+    background-color: #002de0;
+    color: #ffffff;
+  }
+  
+  .nav-link.active span {
+    color: #ffffff;
+  }
+
+  .contact-content {
+    margin-top: 150px;
+    padding-left: 334px;
+  }
+
+  .intro-text {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 1.4;
+    max-width: 848px;
+    margin: 0 0 131px 0;
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+
+  .social-links a {
+    display: block;
+    transition: transform 0.3s;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.1);
+  }
+
+  .social-links img {
+    display: block;
+    height: 94px;
+    width: auto;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .contact-header {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .main-nav ul {
+      justify-content: center;
+    }
+    .contact-content {
+      padding-left: 0;
+      margin-top: 80px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .contact-container {
+      min-height: auto;
+      padding: 20px;
+      border-width: 5px;
+    }
+    .main-title {
+      font-size: 64px;
+      text-align: center;
+    }
+    .decorative-lines {
+      margin: 20px auto 0;
+    }
+    .nav-link {
+      font-size: 24px;
+      padding: 8px 12px;
+    }
+    .nav-link img {
+      width: 28px;
+      height: 28px;
+    }
+    .main-nav ul {
+      gap: 15px;
+    }
+    .contact-content {
+      margin-top: 60px;
+    }
+    .intro-text {
+      font-size: 28px;
+      margin-bottom: 60px;
+    }
+    .social-links {
+      gap: 15px;
+      justify-content: center;
+    }
+    .social-links img {
+      height: 60px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .main-title {
+      font-size: 48px;
+    }
+    .nav-link {
+      font-size: 18px;
+    }
+    .nav-link img {
+      width: 24px;
+      height: 24px;
+    }
+    .intro-text {
+      font-size: 22px;
+    }
+    .social-links img {
+      height: 50px;
+    }
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="contact-section">
+  <div class="contact-container">
+    <header class="contact-header">
+      <div class="title-block">
+        <h1 class="main-title">Contacts...</h1>
+        <div class="decorative-lines">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="nav-link">
+            <img src="images/5da954b10cb78b646d2cec31c14a19a9e8f533b0.png" alt="Home icon">
+            <span>Home</span>
+          </a></li>
+          <li><a href="about.html" class="nav-link">
+            <img src="images/c3d6f02793aa6f9388bd1a95d645d2fb6c8633ca.png" alt="About icon">
+            <span>About</span>
+          </a></li>
+          <li><a href="skills.html" class="nav-link">
+            <img src="images/346de00672f96e0840309d617d5e80f5070df0bb.png" alt="Skills icon">
+            <span>Skills</span>
+          </a></li>
+          <li><a href="projects.html" class="nav-link">
+            <img src="images/eaddbd285535d379a872966b709327718c716115.png" alt="Projects icon">
+            <span>Projects</span>
+          </a></li>
+          <li><a href="contacts.html" class="nav-link active">
+            <img src="images/04a82226db3c5012ac7b808031f1586434800d83.png" alt="Contact icon">
+            <span>Contact</span>
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contact-content">
+      <p class="intro-text">Looking for a passionate and creative mind for your next project?<br>Let’s connect and create something amazing together!</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/balamurugan-v-611192332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><img src="images/9f552b523d2ad819e1b1737c365c0a3e788d4071.png" alt="LinkedIn"></a>
+        <a href="https://github.com/BALA-UX-CREATER/BALA-PORTFOLIO/settings" aria-label="GitHub"><img src="images/40424be80d916be5d9c13c889291b437a4768c3f.png" alt="GitHub"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" aria-label="Gmail"><img src="images/a2997af1a8f2c0d741433ffeb753f0891d192173.png" alt="Gmail"></a>
+        <a href="https://wa.me/8056866374" aria-label="WhatsApp"><img src="images/214f790f428d1eb9ffba767c9ca52bb3ad9aa67d.png" alt="WhatsApp"></a>
+        <a href="https://www.instagram.com/bala_04__06/?hl=en" aria-label="Instagram"><img src="images/f5b23108daf84373ddcd2c7ef903b2af2791cefa.png" alt="Instagram"></a>
+      </div>
+    </main>
+  </div>
+</section>
+</body>
+</html>

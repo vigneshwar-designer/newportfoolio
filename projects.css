@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #a00c18;
+  --color-background: #000000;
+  --color-nav-bg: #d9d9d9;
+  --color-nav-text: #000000;
+  --color-project-title: #ffffff;
+  --color-project-desc: #e3ebc2;
+  --color-underline: #d9d9d9;
+
+  --font-main-title: 'Rozha One', serif;
+  --font-nav: 'Inter', sans-serif;
+  --font-project-title: 'Rozha One', serif;
+  --font-project-desc: 'Racing Sans One', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  font-family: var(--font-nav);
+  color: white;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}

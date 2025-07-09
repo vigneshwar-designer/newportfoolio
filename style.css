@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #e35100;
+  --text-light: #ffffff;
+  --text-dark: #000000;
+  --bg-dark: #000000;
+  --bg-inactive: #d9d9d9;
+  --font-rammetto: 'Rammetto One', sans-serif;
+  --font-rakkas: 'Rakkas', sans-serif;
+  --font-racing: 'Racing Sans One', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  font-family: var(--font-inter);
+  color: var(--text-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}

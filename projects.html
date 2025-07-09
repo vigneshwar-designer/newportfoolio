@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Racing+Sans+One&family=Rozha+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="projects.css">
+  <style id="sections-styles">
+/* CSS for section section:projects */
+.projects-container {
+    max-width: 1440px;
+    min-height: 1024px;
+    margin: 20px auto;
+    background-color: var(--color-background);
+    border: 10px solid var(--color-primary);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .content-wrapper {
+    position: relative;
+    z-index: 1;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    flex-grow: 1;
+  }
+
+  .projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .title-group {
+    /* Container for title and underlines */
+  }
+
+  .main-title {
+    font-family: var(--font-main-title);
+    font-size: 96px;
+    font-weight: 400;
+    color: var(--color-primary);
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  .title-underline {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12.5px;
+  }
+
+  .title-underline .line-1,
+  .title-underline .line-2 {
+    height: 10px;
+    background-color: var(--color-underline);
+    border-radius: 5px;
+  }
+
+  .title-underline .line-1 {
+    width: 320px;
+  }
+
+  .title-underline .line-2 {
+    width: 194px;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    padding-top: 12px; /* Visual alignment with title */
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 4px 16px;
+    background-color: var(--color-nav-bg);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--color-nav-text);
+    font-family: var(--font-nav);
+    font-size: 36px;
+    font-weight: 400;
+    height: 44px;
+    white-space: nowrap;
+    transition: transform 0.2s ease;
+  }
+  
+  .nav-item:hover {
+      transform: translateY(-2px);
+  }
+
+  .nav-item.active {
+    background-color: var(--color-primary);
+  }
+
+  .nav-item img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-left: 130px;
+  }
+
+  .project-item {
+    max-width: 987px;
+  }
+
+  .project-title {
+    font-family: var(--font-project-title);
+    font-size: 64px;
+    font-weight: 400;
+    color: var(--color-project-title);
+    margin: 0 0 34px 0;
+  }
+
+  .project-description {
+    font-family: var(--font-project-desc);
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--color-project-desc);
+    line-height: 1.26;
+    margin: 0;
+    padding-left: 161px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1400px) {
+    .projects-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+    }
+    .main-nav {
+      padding-top: 0;
+    }
+    .projects-list {
+      padding-left: 0;
+    }
+    .project-description {
+      padding-left: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .content-wrapper {
+      padding: 30px;
+      gap: 60px;
+    }
+    .main-title {
+      font-size: 64px;
+    }
+    .title-underline .line-1 {
+      width: 240px;
+    }
+    .title-underline .line-2 {
+      width: 150px;
+    }
+    .nav-item {
+      font-size: 24px;
+      height: 36px;
+      padding: 4px 12px;
+      gap: 8px;
+    }
+    .nav-item img {
+      width: 24px;
+      height: 24px;
+    }
+    .project-title {
+      font-size: 48px;
+    }
+    .project-description {
+      font-size: 24px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .content-wrapper {
+      padding: 20px;
+    }
+    .main-title {
+      font-size: 48px;
+    }
+    .nav-item {
+      font-size: 18px;
+      height: 32px;
+    }
+    .project-title {
+      font-size: 36px;
+    }
+    .project-description {
+      font-size: 20px;
+    }
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="projects">
+  <div class="projects-container">
+    <img src="images/6dfc4a072cd53ce907ebe527a7c6048304966165.png" class="bg-image" alt="Starry background">
+    <div class="content-wrapper">
+      <header class="projects-header">
+        <div class="title-group">
+          <h1 class="main-title">Projects...</h1>
+          <div class="title-underline">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+          </div>
+        </div>
+        <nav class="main-nav">
+          <a href="index.html" class="nav-item">
+            <img src="images/5da954b10cb78b646d2cec31c14a19a9e8f533b0.png" alt="Home icon">
+            <span>Home</span>
+          </a>
+          <a href="about.html" class="nav-item">
+            <img src="images/c3d6f02793aa6f9388bd1a95d645d2fb6c8633ca.png" alt="About icon">
+            <span>About</span>
+          </a>
+          <a href="skills.html" class="nav-item">
+            <img src="images/346de00672f96e0840309d617d5e80f5070df0bb.png" alt="Skills icon">
+            <span>Skills</span>
+          </a>
+          <a href="projects.html" class="nav-item active">
+            <img src="images/eaddbd285535d379a872966b709327718c716115.png" alt="Projects icon">
+            <span>Projects</span>
+          </a>
+          <a href="contacts.html" class="nav-item">
+            <img src="images/04a82226db3c5012ac7b808031f1586434800d83.png" alt="Contact icon">
+            <span>Contact</span>
+          </a>
+        </nav>
+      </header>
+
+      <main class="projects-list">
+        <article class="project-item">
+          <h2 class="project-title">Chefy...</h2>
+          <p class="project-description">Chefy is a simple web app that suggests recipes based on the ingredients you enter. Just type what you have, and it shows dishes you can cook instantly. It's perfect for saving time and reducing food waste.</p>
+        </article>
+        <article class="project-item">
+          <h2 class="project-title">News pulse...</h2>
+          <p class="project-description">A web-based news platform designed to organize news into clear categories such as Entertainment, Education, Sports, World News, and more. It also features a regional news system where users can select a specific location to view the latest updates relevant to that area. The platform ensures a seamless experience for accessing both global and local news in one place.</p>
+        </article>
+      </main>
+    </div>
+  </div>
+</section>
+</body>
+</html>

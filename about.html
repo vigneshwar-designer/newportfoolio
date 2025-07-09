@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Jersey+20&family=Racing+Sans+One&family=Rozha+One&display=swap" rel="stylesheet">
+<title>About Me</title>
+  <link rel="stylesheet" href="about.css">
+  <style id="sections-styles">
+/* CSS for section section:about */
+.about-page-container {
+    max-width: 1440px;
+    min-height: 1024px;
+    margin: 20px auto;
+    background: #000000 url('images/6dfc4a072cd53ce907ebe527a7c6048304966165.png') center/cover no-repeat;
+    border: 10px solid #00df84;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .about-header {
+    padding-top: 47px; /* (1311 - 1224) - 40px container padding */
+    margin-bottom: 91px; /* 1446 - (1311 + 44) */
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 21px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 15px;
+    border-radius: 12px;
+    background-color: #d9d9d9;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2;
+    transition: transform 0.2s ease;
+  }
+  
+  .nav-item:hover {
+      transform: scale(1.05);
+  }
+
+  .nav-item.active {
+    background-color: #00df84;
+  }
+
+  .nav-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .about-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 38px; /* (217 - 139) - 40px container padding */
+  }
+
+  .title-wrapper {
+    margin-bottom: 10px; /* 1608 - 1597.5 */
+  }
+
+  .about-title {
+    font-family: 'Rozha One', serif;
+    font-size: 96px;
+    font-weight: 400;
+    color: #00df84;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .title-underline {
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12.5px;
+  }
+
+  .title-underline .line-long {
+    width: 320px;
+    height: 10px;
+    background-color: #00df84;
+  }
+
+  .title-underline .line-short {
+    width: 194px;
+    height: 10px;
+    background-color: #00df84;
+  }
+
+  .about-description {
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.25;
+    max-width: 1330px;
+    margin: 0;
+  }
+
+  .download-button {
+    margin-top: auto;
+    margin-bottom: 50px;
+    align-self: center;
+    background-color: #00df84;
+    border-radius: 12px;
+    padding: 1px 28px;
+    font-family: 'Jersey 20', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .download-button:hover {
+      transform: scale(1.05);
+      background-color: #2cff9f;
+  }
+
+  @media (max-width: 1200px) {
+    .about-description {
+      font-size: 30px;
+    }
+    .about-title {
+      font-size: 80px;
+    }
+    .nav-item {
+      font-size: 30px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .about-page-container {
+      padding: 20px;
+      min-height: auto;
+    }
+    .about-header {
+      padding-top: 20px;
+      margin-bottom: 60px;
+    }
+    .about-content {
+      padding: 0 10px;
+      align-items: center;
+      text-align: center;
+    }
+    .title-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .about-title {
+      font-size: 64px;
+    }
+    .about-description {
+      font-size: 24px;
+    }
+    .download-button {
+      font-size: 36px;
+      margin-top: 60px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .main-nav {
+      gap: 10px;
+    }
+    .nav-item {
+      font-size: 22px;
+      gap: 8px;
+      padding: 5px 10px;
+    }
+    .nav-icon {
+      width: 25px;
+      height: 25px;
+    }
+    .about-title {
+      font-size: 48px;
+    }
+    .title-underline .line-long {
+      width: 200px;
+    }
+    .title-underline .line-short {
+      width: 120px;
+    }
+    .about-description {
+      font-size: 18px;
+    }
+    .download-button {
+      font-size: 28px;
+      padding: 5px 20px;
+    }
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="about">
+  <div class="about-page-container">
+    <header class="about-header">
+      <nav>
+        <ul class="main-nav">
+          <li>
+            <a href="index.html" class="nav-item">
+              <img src="images/5da954b10cb78b646d2cec31c14a19a9e8f533b0.png" alt="Home icon" class="nav-icon">
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-item active">
+              <img src="images/c3d6f02793aa6f9388bd1a95d645d2fb6c8633ca.png" alt="About icon" class="nav-icon">
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="skills.html" class="nav-item">
+              <img src="images/346de00672f96e0840309d617d5e80f5070df0bb.png" alt="Skills icon" class="nav-icon">
+              <span>Skills</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html" class="nav-item">
+              <img src="images/eaddbd285535d379a872966b709327718c716115.png" alt="Projects icon" class="nav-icon">
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="contacts.html" class="nav-item">
+              <img src="images/04a82226db3c5012ac7b808031f1586434800d83.png" alt="Contact icon" class="nav-icon">
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="about-content">
+      <div class="title-wrapper">
+        <h1 class="about-title">ABOUT ME...</h1>
+        <div class="title-underline">
+          <div class="line-long"></div>
+          <div class="line-short"></div>
+        </div>
+      </div>
+      <p class="about-description">
+        I’m V. BALAMURUGAN, a curious and motivated 2nd-year Electronics and Communication Engineering student at Mailam Engineering College. My passion lies in technology, coding, and creative problem-solving, with active work in electronics alongside frontend, backend, and UI/UX design. I love building intuitive digital experiences while deepening my understanding of both hardware and software.
+      </p>
+      <a href="images/bala.resume.pdf.pdf" class="download-button">DOWNLOAD CV</a>
+    </main>
+  </div>
+</section>
+</body>
+</html>

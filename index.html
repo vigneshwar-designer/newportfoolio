@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>V. Balamurugan - Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Rakkas:wght@400&family=Racing+Sans+One:wght@400&family=Rammetto+One:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style id="sections-styles">
+/* CSS for section section:main */
+.portfolio-card {
+    width: 100%;
+    max-width: 1422px;
+    margin: 20px;
+    background-color: var(--bg-dark);
+    background-image: url('images/6dfc4a072cd53ce907ebe527a7c6048304966165.png');
+    background-size: cover;
+    background-position: center;
+    border: 10px solid var(--primary-color);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+  }
+
+  .site-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 2px 20px 2px 8px;
+    height: 40px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: var(--font-inter);
+    font-size: 36px;
+    line-height: 1;
+    color: var(--text-dark);
+    background-color: var(--bg-inactive);
+    transition: transform 0.2s ease;
+  }
+
+  .nav-link:hover {
+    transform: scale(1.05);
+  }
+
+  .nav-link.active {
+    background-color: var(--primary-color);
+  }
+
+  .nav-link img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+
+  .hero-section {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 2rem 0;
+  }
+
+  .hero-image-wrapper {
+    flex-shrink: 0;
+  }
+
+  .profile-photo {
+    width: 438px;
+    height: 438px;
+    border: 5px solid var(--text-light);
+    border-radius: 68px 8px 12px 0px;
+    object-fit: cover;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .intro-text {
+    font-family: var(--font-rammetto);
+    font-size: 32px;
+    color: var(--text-light);
+    margin: 0;
+  }
+
+  .main-heading {
+    font-family: var(--font-rakkas);
+    font-size: 64px;
+    color: var(--primary-color);
+    margin: 48px 0 0 0;
+    line-height: 1.1;
+  }
+
+  .bio-text {
+    font-family: var(--font-racing);
+    font-size: 40px;
+    color: var(--text-light);
+    line-height: 1.25;
+    margin: 20px 0 0 0;
+    max-width: 1088px;
+  }
+
+  .cta-button {
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    padding: 4px 36px;
+    font-family: var(--font-rammetto);
+    font-size: 24px;
+    color: var(--text-light);
+    text-decoration: none;
+    margin-top: 88px;
+    display: inline-block;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+
+  .cta-button:hover {
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 1300px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-content {
+      align-items: center;
+    }
+    .bio-text {
+      max-width: 80%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .site-header {
+      justify-content: center;
+    }
+    .main-nav {
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .portfolio-card {
+      margin: 0;
+      border: none;
+      border-radius: 0;
+      padding: 1rem;
+      min-height: 100vh;
+    }
+    .main-nav {
+      gap: 10px;
+    }
+    .nav-link {
+      font-size: 16px;
+      padding: 4px 10px 4px 6px;
+      height: 32px;
+    }
+    .nav-link img {
+      width: 20px;
+      height: 20px;
+      margin-right: 6px;
+    }
+    .profile-photo {
+      width: 250px;
+      height: 250px;
+    }
+    .intro-text {
+      font-size: 24px;
+    }
+    .main-heading {
+      font-size: 48px;
+      margin-top: 24px;
+    }
+    .bio-text {
+      font-size: 20px;
+      max-width: 100%;
+      margin-top: 16px;
+    }
+    .cta-button {
+      font-size: 20px;
+      margin-top: 40px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .nav-link span {
+      display: none;
+    }
+    .nav-link {
+      padding: 8px;
+    }
+    .nav-link img {
+      margin-right: 0;
+    }
+    .main-heading {
+      font-size: 36px;
+    }
+    .bio-text {
+      font-size: 18px;
+    }
+  }
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<div class="portfolio-card">
+  <header class="site-header">
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link active">
+        <img src="images/5da954b10cb78b646d2cec31c14a19a9e8f533b0.png" alt="Home icon">
+        <span>Home</span>
+      </a>
+      <a href="about.html" class="nav-link">
+        <img src="images/c3d6f02793aa6f9388bd1a95d645d2fb6c8633ca.png" alt="About icon">
+        <span>About</span>
+      </a>
+      <a href="skills.html" class="nav-link">
+        <img src="images/346de00672f96e0840309d617d5e80f5070df0bb.png" alt="Skills icon">
+        <span>Skills</span>
+      </a>
+      <a href="projects.html" class="nav-link">
+        <img src="images/eaddbd285535d379a872966b709327718c716115.png" alt="Projects icon">
+        <span>Projects</span>
+      </a>
+      <a href="contacts.html" class="nav-link">
+        <img src="images/04a82226db3c5012ac7b808031f1586434800d83.png" alt="Contact icon">
+        <span>Contact</span>
+      </a>
+    </nav>
+  </header>
+  <main id="home" class="hero-section">
+    <div class="hero-image-wrapper">
+      <img src="images/414c59f2fa21ccbd5a18119ce276b5ae79e93abb.png" alt="A photo of V. Balamurugan" class="profile-photo">
+    </div>
+    <div class="hero-content">
+      <p class="intro-text">Hello,my name is</p>
+      <h1 class="main-heading">V. BALAMURUGAN</h1>
+      <p class="bio-text">A passionate and creative individual with a growing skillset in web development, design, technical writing. I enjoy crafting clean, user-friendly websites and explaining complex topics in a simple, understandable way.</p>
+      <a href="about.html" class="cta-button">More About me</a>
+    </div>
+  </main>
+</div>
+</body>
+</html>
